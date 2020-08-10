@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face{
+    font-family: inconsolata;
+    src: url('./assets/fonts/Inconsolata/static/Inconsolata-Regular.ttf');
+}
+
+body{
+    font-family: inconsolata;
+}

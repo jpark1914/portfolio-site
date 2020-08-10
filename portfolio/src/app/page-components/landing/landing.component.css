@@ -1,0 +1,36 @@
+.jumbotron{
+    background: #000;
+    border-radius: 0%;
+    height: 400px;
+    padding: 160px 0;
+}
+h3.welcome{
+    margin: 0 40%;
+    font-size: 48px;
+}
+h1.about-text{
+    font-size: 70px;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+}
+h1.me-text{
+    font-size: 70px;
+    margin-left: 3em;
+}
+p.p-text{
+    font-size: 16px;
+    margin-top: 5em;
+}
+.tech-block{
+    background: rgba(0, 0, 0, 1);
+}
+
+ul li{
+    list-style-type: none;
+    font-size: 20px;
+}
+ h1.tech-text{
+     font-size: 56px;
+     padding: 1em 0em;
+     margin-top: 1em;
+ }
