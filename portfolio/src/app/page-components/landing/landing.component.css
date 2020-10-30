@@ -77,3 +77,32 @@ ul li{
     border-radius: 10px;
     font-size: 26px;
 }
+
+@media screen and (min-width: 374px) and (max-width: 500px){
+    .project-image img{
+        width: 345px;
+        height: 245px;
+        border-radius: 10%;
+        margin: 1rem 0rem;
+        transition: width 400ms, height 400ms, box-shadow 400ms;
+    }
+    .project-image p{
+        width: 200px;
+        height: 50px;
+    }
+
+    .project-image img:hover{
+        box-shadow: -5px -2px 5px rgba(255, 255, 255, 1);
+        box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+        width: 360px;
+        height: 280px;
+    }
+    .project-image p:hover{
+        width: 250px;
+        height: 55px;
+        box-shadow: -2px -2px 5px rgba(255, 255, 255, 1);
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        font-size: 20px;
+    }
+}
