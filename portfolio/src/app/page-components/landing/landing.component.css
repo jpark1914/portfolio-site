@@ -61,7 +61,7 @@ ul li{
     box-shadow: -2px -2px 5px rgba(255, 255, 255, 1);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    transition: box-shadow 400ms, font-size 500ms, height 400ms;
+    transition: box-shadow 400ms, font-size 500ms, width 400ms, height 400ms;
 }
 .project-image img:hover{
     box-shadow: -5px -2px 5px rgba(255, 255, 255, 1);
