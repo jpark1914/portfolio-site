@@ -1,19 +1,20 @@
-<div class="jumbotron">
-    <h3 data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" class="text-light welcome">Welcome</h3>
+<div class="welcome-block">
+    <h3 #welcomeMessage data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" class="text-light welcome">
+        Welcome...</h3>
 </div>
 <div class="about">
     <div class="container">
-        <div class="row ">
-            <div class="col-sm-12 col-md-6">
+        <div class="row about-row ">
+            <div class="text-light col-sm-12 col-md-6">
                 <h1 data-aos-offset="200" data-aos-duration="1000" data-aos="fade-down-right" class="about-text">
                     About
                 </h1>
-                <h1 data-aos-offset="200" data-aos-duration="1000" data-aos="fade-up-left" class="offset-6 me-text">
+                <h1 data-aos-offset="200" data-aos-duration="1000" data-aos="fade-up-left" class="me-text">
                     Me
                 </h1>
             </div>
             <div data-aos-offset="200" data-aos-duration="1000" data-aos="fade-left" class="p-text col-sm-12 col-md-6">
-                <p class="text-right p-3">
+                <p class="text-muted text-right p-3">
                     I am a Fullstack Java Engineer. Experienced in building applications that utilize the full range of
                     the MVC design
                     pattern. Created dynamic front-end applications using JavaScript, Typescript, Angular, and
@@ -30,39 +31,57 @@
     <div class="container">
         <div class="row skills">
             <div class="col-md-6 col-sm-12">
-                <h1 data-aos="zoom-in" data-aos-offset="200" data-aos-duration="1000"
-                    class="tech-text text-light text-center">Technologies</h1>
+                <h1 data-aos="fade-down" data-aos-offset="200" data-aos-duration="1000" class="tech-text text-light">
+                    Technologies</h1>
             </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="prog-bars col-md-6 col-sm-12">
                 <ul class="text-muted">
-                    <li>
+                    <li data-aos-offset="200" data-aos-duration="1000" data-aos="fade-up">
                         Java
                         <p>
-                            <ngb-progressbar type="info" [value]="65">65%</ngb-progressbar>
+                            <ngb-progressbar type="dark" [value]="65">65%</ngb-progressbar>
                         </p>
                     </li>
-                    <li>
+                    <li data-aos-offset="200" data-aos-duration="1000" data-aos="fade-up">
                         Spring
                         <p>
-                            <ngb-progressbar type="info" [value]="50">50%</ngb-progressbar>
+                            <ngb-progressbar type="dark" [value]="50">50%</ngb-progressbar>
                         </p>
                     </li>
-                    <li>
+                    <li data-aos-offset="200" data-aos-duration="1000" data-aos="fade-up">
                         Hibernate ORM
                         <p>
-                            <ngb-progressbar type="info" [value]="35">35%</ngb-progressbar>
+                            <ngb-progressbar type="dark" [value]="35">35%</ngb-progressbar>
                         </p>
                     </li>
-                    <li>
+                    <li data-aos-offset="200" data-aos-duration="1000" data-aos="fade-up">
                         SQL
                         <p>
-                            <ngb-progressbar type="info" [value]="55">55%</ngb-progressbar>
+                            <ngb-progressbar type="dark" [value]="55">55%</ngb-progressbar>
                         </p>
                     </li>
-                    <li>
+                    <li data-aos-offset="200" data-aos-duration="1000" data-aos="fade-up">
                         Angular
                         <p>
-                            <ngb-progressbar type="info" [value]="60">60%</ngb-progressbar>
+                            <ngb-progressbar type="dark" [value]="60">60%</ngb-progressbar>
+                        </p>
+                    </li>
+                    <li data-aos-offset="200" data-aos-duration="1000" data-aos="fade-up">
+                        WordPress
+                        <p>
+                            <ngb-progressbar type="dark" [value]="75">75%</ngb-progressbar>
+                        </p>
+                    </li>
+                    <li data-aos-offset="200" data-aos-duration="1000" data-aos="fade-up">
+                        HTML/CSS
+                        <p>
+                            <ngb-progressbar type="dark" [value]="80">80%</ngb-progressbar>
+                        </p>
+                    </li>
+                    <li data-aos-offset="200" data-aos-duration="1000" data-aos="fade-up">
+                        TypeScript/JavaScript
+                        <p>
+                            <ngb-progressbar type="dark" [value]="67">67%</ngb-progressbar>
                         </p>
                     </li>
                 </ul>
@@ -71,10 +90,55 @@
     </div>
 </div>
 <div class="projects">
-    <div class="container text-center">
-        <h1 class="">Projects</h1>
+    <div class="container">
+        <h1 data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" class="text-light">Projects</h1>
         <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-6 project-image">
+            <div class="project-item" data-aos-offset="200" data-aos-duration="1000" data-aos="fade-up">
+                <a target="blank" href="https://compostfairy.com/">
+                    <h3 class="">Compost Fairy</h3>
+                </a>
+                <p class="text-muted">
+                    I worked on the Compost Fairy with a team of people back in the year of 2018 at Give Camp Memphis.
+                    It was my first experience working with a team and utilizing a popular platform that I'm proficient
+                    with called, WordPress.
+                </p>
+            </div>
+            <div class="project-item" data-aos-offset="200" data-aos-duration="1000" data-aos="fade-up">
+                <a target="blank" href="https://www.knowledgequest.org/">
+                    <h3 class="">Knowledge Quest</h3>
+                </a>
+                <p class="text-muted">
+                    During my second year at Give Camp in 2019. I chose to help develop Knowledge Quest's site using the
+                    WordPress CMS.
+                    The site structure was created using Divi, a WP plugin, and various other plugins to help capture
+                    leads and other user information. Along with lisitng the non-profit organization's initiatives and
+                    plans to help our community.
+                </p>
+            </div>
+            <div class="project-item" data-aos-offset="200" data-aos-duration="1000" data-aos="fade-up">
+                <a target="blank" href="https://memphistransformed.com/">
+                    <h3 class="">Memphis Transfromed</h3>
+                </a>
+                <p class="text-muted">
+                    Memphis Transformed is a progressive campaign that propels the city towards a zero net waste
+                    circular
+                    economy.
+                    Recently brought on to do some freelancing work, I helped developed and re-edit some of their online
+                    campaign initiatives and site structure.
+                </p>
+            </div>
+            <div class="project-item" data-aos-offset="200" data-aos-duration="1000" data-aos="fade-up">
+                <a target="blank" href="https://www.cleanmemphis.org/">
+                    <h3 class="">Clean Memphis</h3>
+                </a>
+                <p class="text-muted">
+                    Clean Memphis is a nonprofit organization that focuses on educating youth, engaging leadership, and
+                    empowering
+                    communities to sustain a cleaner Memphis. I was commissioned by Clean Memphis to build and structure
+                    the Memphis Food Waste Initiative, and small edit touch ups.
+                </p>
+            </div>
+            <!-- <div class="col-sm-12 col-md-12 col-lg-6 project-image">
                 <a href="https://compostfairy.com/">
                     <img src="../../../assets/images/compostfairy.png" alt="">
                     <p>Compost Fairy</p>
@@ -97,7 +161,14 @@
                     <img src="../../../assets/images/cleanMemphis.png" alt="">
                     <p>Clean Memphis</p>
                 </a>
-            </div>
+            </div> -->
+        </div>
+    </div>
+</div>
+<div class="offer">
+    <div class="container">
+        <div class="row">
+            <h1 class="text-light">Services</h1>
         </div>
     </div>
 </div>

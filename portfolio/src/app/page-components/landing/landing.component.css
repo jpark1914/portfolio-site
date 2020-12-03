@@ -1,34 +1,54 @@
-.jumbotron{
-    background: #000;
+/* rgba(241,243,244,1) */
+.welcome-block{
+     background: linear-gradient(
+         rgba(0,0,0,0.8),
+         rgba(0,0,0,0.8)
+         ),url(../../../assets/images/IMG_0713.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     border-radius: 0%;
     height: 700px;
     padding: 260px 0;
-    margin-bottom: -1em;
     text-align: center;
 }
+
 h3.welcome{
     font-size: 86px;
 }
 h1.about-text{
     font-size: 70px;
     margin-bottom: 1em;
-    margin-top: 0.5em;
 }
 h1.me-text{
     font-size: 70px;
     margin-left: 3em;
 }
 .p-text{
-    margin: auto 0rem;
-}
-.p-text>p{
-    font-size: 16px;
+    box-shadow: 0px 2px;
+    background-color: #222222;
+    border-radius: 14px;
 }
 .about{
-    background-color: rgba(241,243,244,1);
+    height: 700px;
+    background-color: #111111;
+}
+.about-row{
+    padding-top: 10%;
+}
+.about h1{
+    font-size: 105px;
+}
+.about p{
+    font-size: 24px;
 }
 .tech-block{
-    background: rgba(0, 0, 0, 1);
+    height: 900px;
+    background:#111111;
+}
+.skills{
+    padding-top: 20%;
 }
 
 ul li{
@@ -36,49 +56,65 @@ ul li{
     font-size: 20px;
 }
  h1.tech-text{
-     font-size: 56px;
+     font-size: 70px;
      padding: 1em 0em;
-     margin-top: 1em;
  }
 .projects{
-    background-color: rgba(241,243,244,1);
-    padding: 4rem 0rem;
+    background-color: rgba(17, 17, 17, 1);
+    padding: 5rem 0rem;
+}
+.projects h1{
+    font-size: 74px;
+}
+.projects h3{
+    font-size: 24px;
+    color: whitesmoke;
+    transition: color .5s ease, font-size .5s ease;
+}
+.projects a{
+    text-decoration: none;
+}
+.projects a:hover{
+    
+}
+.projects h3:hover{
+    color: #444444;
+    font-size: 30px;
+}
+.project-item{
+    border-top: 2px solid #222222;
+    border-bottom: 2px solid #222222;
+    margin: 2rem 0rem;
+    padding: 0rem 1rem;
+}
+.offer{
+    background-color: #111111;
+}
+.offer h1{
+    font-size: 74px;
 }
 
-.project-image img{
-    width: 480px;
-    height: 380px;
-    border-radius: 10%;
-    margin: 1rem 0rem;
-    transition: width 400ms, height 400ms, box-shadow 400ms;
-}
-.project-image p{
-    margin: 0 auto;
-    margin-top: -1rem;
-    padding-top: 1rem;
-    width: 400px;
-    height: 50px;
-    box-shadow: -2px -2px 5px rgba(255, 255, 255, 1);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    transition: box-shadow 400ms, font-size 500ms, width 400ms, height 400ms;
-}
-.project-image img:hover{
-    box-shadow: -5px -2px 5px rgba(255, 255, 255, 1);
-    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
-    width: 500px;
-    height: 400px;
-}
-.project-image p:hover{
-    width: 400px;
-    height: 75px;
-    box-shadow: -2px -2px 5px rgba(255, 255, 255, 1);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    font-size: 26px;
-}
 
 @media screen and (min-width: 374px) and (max-width: 500px){
+    .welcome-block>h3{
+        background-attachment: fixed;
+        font-size: 54px;
+    }
+    .about>h1{
+        font-size: 54px;
+    }
+    h1.about-text{
+        margin-bottom: 0em;
+    }
+    h1.me-text{
+        margin-left: 0em;
+    }
+    .about p{
+        font-size: 20px;
+    }
+    .skills h1{
+    font-size: 54px;
+    }
     .project-image img{
         width: 345px;
         height: 245px;
