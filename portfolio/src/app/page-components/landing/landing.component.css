@@ -21,6 +21,7 @@ h3.welcome{
     font-size: 86px;
 }
 h1.about-text{
+    padding-top: 3rem;
     font-size: 70px;
     margin-bottom: 1em;
 }
@@ -28,13 +29,17 @@ h1.me-text{
     font-size: 70px;
     margin-left: 3em;
 }
+.p-wrap{
+    padding: 0rem 1.5rem;
+}
 .p-text{
+    text-align: right;
+    padding: 1.5rem;
     box-shadow: 0px 2px;
     background-color: #222222;
     border-radius: 14px;
 }
 .about{
-    height: 700px;
     background-color: #111111;
 }
 .about-row{
@@ -47,13 +52,9 @@ h1.me-text{
     font-size: 24px;
 }
 .tech-block{
-    padding-top: 35%;
-
+    padding-top: 30%;
     background:#111111;
 }
-.skills{
-}
-
 ul li{
     list-style-type: none;
     font-size: 20px;
@@ -77,8 +78,8 @@ ul li{
 .projects a{
     text-decoration: none;
 }
-.projects a:hover{
-    
+.projects h3{
+    padding: 1rem 0rem;
 }
 .projects h3:hover{
     color: #444444;
@@ -127,7 +128,7 @@ ul li{
     height: 225px;
     overflow: scroll;
 }
-.offer-button>.btn{
+.offer-button .btn{
     margin-top: 1rem;
     font-size: 14px;
     height: 45px;
@@ -140,12 +141,19 @@ ul li{
     width .3s ease, 
     font-size 1s ease;
 }
-.offer-button>.btn:hover{
+.offer-button .btn:hover{
     font-size: 18px;
     height: 55px;
-    width: 145px;
+    width: 155px;
     color: green;
     background-color: #f5f5f5;
+}
+.offer-button a .btn{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.offer-button a:hover .btn{
+    color: green;
 }
 .connect{
     background-color: #111111;
@@ -190,9 +198,12 @@ ul li{
     color: #3b5998;
 }
 .icon #linkedin:hover{
-    color: #0e76a8 ;
+    color: whitesmoke ;
 }
 @media screen and (min-width: 374px) and (max-width: 500px){
+    h1{
+        text-align: center;
+    }
     .welcome-block>h3{
         background-attachment: fixed;
         font-size: 54px;
@@ -207,11 +218,13 @@ ul li{
         margin-left: 0em;
     }
     .about p{
+
         font-size: 20px;
     }
     .skills h1{
     font-size: 54px;
     }
+
     .project-image img{
         width: 345px;
         height: 245px;
@@ -237,6 +250,10 @@ ul li{
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
         border-radius: 10px;
         font-size: 20px;
+    }
+    .connect h1{
+        padding: 0rem 2rem;
+        font-size: 70px;
     }
     .socials{
         text-align: center;
